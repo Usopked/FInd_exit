@@ -18,7 +18,7 @@ label start:
 
     e "아주대학교 탈출 게임."
 
-    e "개발 1일차"
+    e "개발 5일차"
 
     menu:
 
@@ -67,7 +67,7 @@ label gym:
 
     e "체육관이다."
 
-    e "농구나 배드민턴 동아리가 아니면 거의 들어올 일 없는 장소같다."
+    e "농구나 배드민턴 동아리가 아니면 거의 들어올 일 없는 장소 같다."
 
     menu:
         "운동장으로 간다.":
@@ -95,6 +95,8 @@ label gaon_park:
 
     e "가온마당이다."
 
+    e "축제를 제외하곤 쓰일 곳 없는 척박한 땅이다."
+
     menu:
         "운동장으로 간다.":
             jump gym
@@ -111,7 +113,7 @@ label library:
 
     e "도서관이다."
 
-    e "정말 공대스러운 3,4층과 스터디카페를 모방한 2층이 어우러져 기묘한 분위기를 자아낸다."
+    e "어쩜 도서관조차도 이리 공대스러울까."
 
     menu:
         "노천극장으로 간다.":
@@ -145,6 +147,8 @@ label yulgok_holl:
 
     e "율곡관이다."
 
+    e "묘하게 중요한 분위기를 풍기지만, 실상은 점유율부터 성호관에게 시종일관 밀리는 중이다."
+
     menu:
         "연암관으로 간다.":
             jump yeonam_holl
@@ -158,6 +162,8 @@ label yeonam_holl:
     scene 연암관 at fullsize
 
     e "연암관이다."
+
+    e "고등학교로 치면 딱 교장실 포지션인 듯 하다.."
 
     menu:
         "다산관으로 간다.":
@@ -175,6 +181,8 @@ label dasan_holl:
 
     e "다산관이다."
 
+    e "다산관 매점은 양이 많고 맛있기로 유명한 듯 하다"
+
     menu:
         "연암관으로 간다.":
             jump yeonam_holl
@@ -188,6 +196,10 @@ label songjae_holl:
     scene 송재관 at fullsize
 
     e "송재관이다."
+
+    e "의대생들의 주된 서식지이다."
+
+    e "각종 소문이 있지만 그 실상을 아는 자는 학교에서도 극히 소수이다."
 
     menu:
         "가온마당으로 간다.":
@@ -204,6 +216,8 @@ label hospital:
     scene 병원 at fullsize
 
     e "병원이다."
+
+    e "어.. 음... 평범한 대형 병원이다."
 
     menu:
         "병원 정문으로 간다.":
@@ -249,6 +263,10 @@ label hongjae_holl:
 
     e "홍재관이다."
 
+    e "간호학과를 위한 건물이다."
+
+    e "굉장한 여초임에도 불구하고, 공대스러운 디자인을 피해가지는 못했다."
+
     menu:
         "연암관으로 간다.":
             jump yeonam_holl
@@ -264,6 +282,8 @@ label biomedical_center:
     scene 의생명과학관 at fullsize
 
     e "의생명과학관이다."
+
+    e "시니컬한 대학원생이 종종 출몰하는 위험지대이다."
 
     menu:
         "임상수기센터로 간다.":
@@ -281,7 +301,7 @@ label tennis_court:
 
     e "테니스장이다."
 
-    e "학교에 이런 곳이..?"
+    e "왜 학교에 이런 곳이..?"
 
     menu:
         "의생명과학관으로 간다.":
@@ -294,6 +314,8 @@ label clinical_center:
     scene 임상수기센터 at fullsize
 
     e "임상수기센터이다."
+
+    e "학교에 별 게 다 있다는 생각이 든다."
 
     menu:
         "의생명과학관으로 간다.":
@@ -309,6 +331,8 @@ label pharmacy_holl:
 
     e "약학관이다."
 
+    e "의대와 간호대랑은 다르게 접근성이 매우 나쁜 편이다."
+
     menu:
         "임상수기센터로 간다.":
             jump clinical_center
@@ -322,6 +346,10 @@ label hyegang_holl:
     scene 혜강관 at fullsize
 
     e "혜강관이다."
+
+    e "각종 생화학실험을 진행하는 건물이다."
+
+    e "문을 연 지 반년도 안 돼서 화재가 났다는 소문이 있다."
 
     menu:
         "약학관으로 간다.":
@@ -357,6 +385,8 @@ label pioneer_statue:
 
     e "선구자상이다."
 
+    e "각종 학보 등에서 아주대의 진짜 교문 취급을 받고 있다."
+
     menu:
         "더테라스로 간다.":
             jump the_terrace
@@ -373,6 +403,8 @@ label energy_center:
 
     e "에너지 센터이다."
 
+    e "이름에 어울리지 않는 외관을 하고 있다."
+
     menu:
         "선구자상으로 간다.":
             jump pioneer_statue
@@ -385,6 +417,8 @@ label woncheon_holl:
     scene 원천관 at fullsize
 
     e "원천관이다."
+
+    e "선구자상 버프를 받아서 그런지 그나마 외관이 괜찮아 보인다."
 
     menu:
         "선구자상으로 간다.":
@@ -404,6 +438,8 @@ label woncheon_information_center:
 
     e "원천정보관이다."
 
+    e "회의실 대여가 가능해 각종 팀플에서 요긴하게 써먹을 수 있다."
+
     menu:
         "원천관으로 간다.":
             jump woncheon_holl
@@ -417,6 +453,8 @@ label east_holl:
     scene 동관 at fullsize
 
     e "동관이다."
+
+    e "특징이 없는 게 특징이다."
 
     menu:
         "토목공학관으로 간다.":
@@ -434,6 +472,8 @@ label chemical_engineering_holl:
 
     e "화학공학관이다."
 
+    e "해탈한 공대생들이 간혹 출몰한다."
+
     menu:
         "원천관으로 간다.":
             jump woncheon_holl
@@ -447,6 +487,8 @@ label west_holl:
     scene 서관 at fullsize
 
     e "서관이다."
+
+    e "특징이 없는 것이 특징인 건물이다."
 
     menu:
         "동관으로 간다.":
@@ -465,6 +507,8 @@ label seongho_holl:
 
     e "성호관이다."
 
+    e "저학년들의 필수과목들 덕분에 점유율 측면에서 부동의 1위를 유지하고 있다."
+
     menu:
         "더테라스로 간다.":
             jump the_terrace
@@ -481,6 +525,8 @@ label student_center:
 
     e "구학생회관이다."
 
+    e "이곳 음식점들은 가성비가 좋지 않다는 평이 많다. 다산관을 이용하자."
+
     menu:
         "신학생회관으로 간다.":
             jump new_student_center
@@ -494,6 +540,8 @@ label new_student_center:
     scene 신학생회관 at fullsize
 
     e "신학생회관이다."
+
+    e "과방은 대체로 이곳에서 찾으면 된다."
 
     menu:
         "구학생회관으로 간다.":
@@ -511,6 +559,8 @@ label civil_engineering_holl:
 
     e "토목공학관이다."
 
+    e "상업용 컨테이너 박스처럼 생겼다."
+
     menu:
         "동관으로 간다.":
             jump east_holl
@@ -525,6 +575,10 @@ label namje_domitory:
 
     e "남제관이다."
 
+    e "전우애가 돈둑하기로 악명이 자자하다."
+
+    e "샤워실에서 볼일을 보지 말라는 전설의 문구가 적힌 곳이다."
+
     menu:
         "신학생회관으로 간다.":
             jump new_student_center
@@ -538,6 +592,10 @@ label domitory_cafeteria:
     scene 기숙사식당 at fullsize
 
     e "기숙사 식당이다."
+
+    e "가격, 맛 전부 평범한 급식실이다."
+
+    e "그날그날 메뉴에 따라 평이 크게 갈린다."
 
     menu:
         "남제관으로 간다.":
@@ -555,6 +613,8 @@ label yongji_domitory:
 
     e "용지관이다."
 
+    e "무난하고 낡은 기숙사 느낌이다."
+
     menu:
         "일신관으로 간다.":
             jump ilshin_domitory
@@ -570,6 +630,8 @@ label hwahong_domitory:
     scene 화홍관 at fullsize
 
     e "화홍관이다."
+
+    e "용지관의 여자 버전이라고 여겨지는 듯 하다."
 
     menu:
         "용지관으로 간다.":
@@ -587,6 +649,10 @@ label gwanggyo_domitory:
 
     e "광교관이다."
 
+    e "남제관의 여자 버전이라는 말이 많다."
+
+    e "다만 남제관의 광기를 따라잡긴 아직 멀었다고 한다.."
+
     menu:
         "화홍관으로 간다.":
             jump hwahong_domitory
@@ -600,6 +666,10 @@ label ilshin_domitory:
     scene 일신관 at fullsize
 
     e "일신관이다."
+
+    e "아주대의 강남이자 광교, 선택받은 성골의 거주지이다."
+
+    e "기숙사 주제에 자취방이랑 비비는 초월적인 가격의 소유지이다."
 
     menu:
         "용지관으로 간다.":
@@ -616,6 +686,8 @@ label international_domitory:
     scene 국제학사 at fullsize
 
     e "국제학사다."
+
+    e "초호화 기숙사지만, 혼자 살 수 있는 자취방의 편의성을 따라잡긴 힘들어 보인다."
 
     menu:
         "화홍관으로 간다.":
@@ -635,6 +707,8 @@ label paldal_holl:
 
     e "팔달관이다."
 
+    e "공대의 국밥, 공대의 표본, 공대의 바이블"
+
     menu:
         "학군단으로 간다.":
             jump school_team
@@ -651,6 +725,8 @@ label comprehensive_design_hall:
 
     e "종합설계동이다."
 
+    e "대체 무엇을 하는 공간일까?"
+
     menu:
         "서관으로 간다.":
             jump west_holl
@@ -664,6 +740,8 @@ label school_team:
     scene 학군단 at fullsize
 
     e "학군단이다."
+
+    e "남제관에게 전우애로 위협받는 처지에 놓여 있다."
 
     menu:
         "팔달관으로 간다.":
@@ -683,6 +761,8 @@ label north_door:
 
     e "북문이다."
 
+    e "진 엔딩에 도달하지 못한 당신, 하지만 어떻게 보면 현명한 선택일 수도 있다..."
+
     return
 
 
@@ -693,6 +773,8 @@ label industry_academic_cooperation:
 
     e "산학협력원이다."
 
+    e "학교의 정점에 위치한 미디어과의 전유물이지만, 그 자리를 탐내는 이는 아무도 없다."
+
     menu:
         "광교로 간다.":
             jump gwanggyo
@@ -702,6 +784,8 @@ label gwanggyo:
     scene black
     with dissolve
     scene 광교 at fullsize
+
+    e "경기도의 강남, 부잣집 동네이다."
 
     e "당신은 진엔딩에 도달하셨습니다."
 
