@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 101, in script
+    jump west_holl
+ScriptError: could not find label 'west_holl'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 101, in script
+    jump west_holl
+  File "C:\Users\ProBook\Desktop\renpy-8.2.0-sdk\renpy\ast.py", line 1698, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\ProBook\Desktop\renpy-8.2.0-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'west_holl'.
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.2.0.24012702
+AJOU 1.0
+Thu Feb 15 18:07:34 2024
